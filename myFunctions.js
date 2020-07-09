@@ -28,27 +28,27 @@ function pokeCounting() {
 		nameElement.innerHTML = pokeArray[index].name;
 		picElement.src = pokeArray[index].image;
 		// For testing index in Box 1
-		numElement.innerHTML = index;
+		// numElement.innerHTML = index;
 	} else {
 		if (index == pokeArray.length) {
-			numElement.innerHTML = pokeArray[0].name;
+			nameElement.innerHTML = pokeArray[0].name;
 			picElement.src = pokeArray[0].image;
-			numElement2.innerHTML = pokeArray[index - 1].name;
+			nameElement2.innerHTML = pokeArray[index - 1].name;
 			picElement2.src = pokeArray[index - 1].image;
-			numElement.innerHTML = index;
-			numElement2.innerHTML = index;
+			// numElement.innerHTML = index;
+			// numElement2.innerHTML = index;
 			index = 0;
 		} else {
 			// Shows image + name of Pokemon in Box 1
 			nameElement.innerHTML = pokeArray[index].name;
 			picElement.src = pokeArray[index].image;
 			// Testing index in Box 1
-			numElement.innerHTML = index;
+			// numElement.innerHTML = index;
 			// Shows image + name of Pokemon in Box 2
 			nameElement2.innerHTML = pokeArray[index - 1].name;
 			picElement2.src = pokeArray[index - 1].image;
 			// Testing Index in Box 2
-			numElement2.innerHTML = index;
+			// numElement2.innerHTML = index;
 		}
 	}
 	index++;
