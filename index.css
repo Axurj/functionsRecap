@@ -1,0 +1,32 @@
+#pokeNames {
+    text-align: center;
+    font-size: 25;
+    color: rgb(75, 152, 240);
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#pokeNames2 {
+    text-align: center;
+    font-size: 20;
+    color: rgb(127, 146, 209);
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+/* Centers the button to the top-center area of the screen */ 
+button {
+    display: block;
+    margin: 50 auto;
+}
+
+/* Centers the 1st Pokemon image to the middle of the screen */
+#pokePics {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Centers the 2nd Pokemon image to the middle of the screen */
+#pokePics2 {
+    display: block;
+    margin: 0 auto;
+}
+
